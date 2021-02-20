@@ -36,7 +36,7 @@ class ContactDao {
 
   Contact _toList(Map<String, dynamic> contact) {
     return Contact(
-      id: contact[_idField],
+      id: 0,
       name: contact[_nameField],
       accountNumber: contact[_accountNumberField],
     );
